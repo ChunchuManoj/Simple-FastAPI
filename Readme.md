@@ -154,15 +154,53 @@ Access Swagger docs at:
 ---
 
 ## ✅ Deployment
+---
 
-Deployed on: **Render/Railway**
-Base URL:
+## 🚀 Live Demo
 
-```
-https://yourapp.onrender.com
-```
+You can access the deployed FastAPI project here:
+🔗 **[https://simple-fastapi-t4k2.onrender.com](https://simple-fastapi-t4k2.onrender.com)**
 
 ---
+
+## 📦 API Endpoints (Sample)
+
+### ➕ Create Product
+
+`POST /products`
+
+### 📄 List Products
+
+`GET /products`
+Supports query parameters like:
+
+* `name` (partial match)
+* `size` (e.g., `large`)
+* `limit`, `offset` (pagination)
+
+### 🛒 Create Order
+
+`POST /orders`
+
+### 📦 Get Orders by User
+
+`GET /orders/{user_id}`
+Supports `limit`, `offset` for pagination.
+
+---
+
+## 🛠 Deployment
+
+This project is deployed on [Render](https://render.com), using:
+
+* Python 3.11.8 (specified in `.python-version`)
+* Uvicorn as the ASGI server
+* GitHub integration for continuous deployment
+
+---
+
+
+
 
 ## 👤 Author
 
