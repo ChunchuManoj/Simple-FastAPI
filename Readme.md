@@ -126,8 +126,8 @@ This is a sample e-commerce backend application built using **FastAPI** and **Mo
 1. Clone the repo:
 
 ```bash
-git clone https://github.com/your-username/hrone-task.git
-cd hrone-task
+git clone https://github.com/ChunchuManoj/Simple-FastAPI.git
+cd Simple-FastAPI
 ```
 
 2. Create a `.env` file:
